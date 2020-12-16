@@ -35,6 +35,8 @@ public class GoogleSearch {
 				break;
 			}
 		}
+		Thread.sleep(5000);
+		driver.quit();
 
 	}
 

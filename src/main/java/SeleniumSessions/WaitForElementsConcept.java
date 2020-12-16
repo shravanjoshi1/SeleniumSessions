@@ -41,9 +41,9 @@ public class WaitForElementsConcept {
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
 
-	public static void getPageLinksText(By locator, int timeOut) {
+	/*public static void getPageLinksText(By locator, int timeOut) {
 		visibilityOfAllElements(locator, timeOut).stream().forEach(ele -> System.out.println(ele.getText()));
-	}
+	}*/
 
 	public static WebElement retryingElement(By locator) {
 		WebElement element = null;

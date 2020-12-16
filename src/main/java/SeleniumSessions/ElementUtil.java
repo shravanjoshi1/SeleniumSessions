@@ -144,10 +144,9 @@ public class ElementUtil {
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
 
-	public void getPageLinksText(By locator, int timeOut) {
+/*	public void getPageLinksText(By locator, int timeOut) {
 		visibilityOfAllElements(locator, timeOut).stream().forEach(ele -> System.out.println(ele.getText()));
-	}
-
+	}*/
 	public int getPageLinksCount(By locator, int timeOut) {
 		return visibilityOfAllElements(locator, timeOut).size();
 	}
