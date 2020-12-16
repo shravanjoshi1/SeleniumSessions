@@ -19,7 +19,7 @@ public class GoogleSearch {
 
 		driver.get("http://www.google.com/");
 
-		driver.findElement(By.name("q")).sendKeys("naveen automation labs");
+		driver.findElement(By.name("q")).sendKeys("infinite computer solutions");
 		Thread.sleep(3000);
 
 		List<WebElement> optionsList = driver.findElements(By.xpath("//ul[@class='erkvQe']//div[@class='sbl1']//span"));
